@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> sastrastudentform </title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+   <link type="text/css" rel="stylesheet" href="style.css"  />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+</body>
+ <form action="#" name="StudentRegistration" onsubmit="return(validate());">
+
+<table cellpadding="5" width="30%" bgcolor="99FFFF" align="center"
+cellspacing="0" >
+
+<tr>
+<td colspan=2>
+<center><b><font size=5><b>Student Registration Form</b></font></b></center>
+</td>
+</tr>
+
+<tr>
+<td>Name</td>
+<td><input type=text name=textnames id="textname" size="30"></td>
+</tr>
+
+<tr>
+<td>Father Name</td>
+<td><input type="text" name="fathername" id="fathername"
+size="30"></td>
+</tr>
+<tr>
+<td>Postal Address</td>
+<td><input type="text" name="paddress" id="paddress" size="30"></td>
+</tr>
+<tr>
+<td>Personal Address</td>
+<td><input type="text" name="personaladdress"
+id="personaladdress" size="30"></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td><input type="radio" name="gender" value="male" size="10">Male
+<input type="radio" name="gender" value="Female" size="10">Female</td>
+</tr>
+
+<tr>
+<td>City</td>
+<td><select name="City">
+<option value="-1" selected>select..</option>
+<option value="TIRUPATHI">Tirupathi</option>
+<option value="KUMBAKONAM">KUMBAKONAM</option>
+<option value="TIRICHY">TIRICHY</option>
+<option value="BANGALORE">BANGALORE</option>
+</select></td>
+</tr>
+
+<tr>
+<td>Class</td>
+<td><select name=" Class">
+<option value="-1" selected>select..</option>
+<option value="1">FIRST CLASS</option>
+<option value="2">SECOND CLASS</option>
+<option value="3">THIRD CLASS</option>
+<option value="4">FOURTH CLASS</option>
+<option value="5">FIFTH CLASS</option>
+<option value="6">SIXTH CLASS</option>
+<option value="7">SEVENTH CLASS</option>
+<option value="8">EIGTH CLASS</option>
+<option value="9">NINTH CLASS</option>
+<option value="10">TENTH CLASS</option>
+</select></td>
+</tr>
+
+<tr>
+<td>District</td>
+<td><input type=text name=DISTRICT id="district" size="30"></td>
+</tr>
+<tr>
+<td>State</td>
+<td><select Name="State">
+<option value="-1" selected>select..</option>
+<option value="ANDHRA PRADESH">ANDHRA PRADESH</option>
+<option value="KARNATAKA">KARNATAKA</option>
+<option value="TAMILNADU">TAMIL NADU</option>
+<option value="TELENGANA">TELENGANA</option>
+</select></td>
+</tr>
+
+<tr>
+<td>PinCode</td>
+<td><input type="text" name="pincode" id="pincode" size="30"></td>
+
+</tr>
+<tr>
+<td>EmailId</td>
+<td><input type="text" name="emailid" id="emailid" size="30"></td>
+</tr>
+
+<tr>
+<td>DOB</td>
+<td><input type="text" name="dob" id="dob" size="30"></td>
+</tr>
+
+<tr>
+<td>MobileNo</td>
+<td><input type="text" name="mobileno" id="mobileno" size="30"></td>
+</tr>
+<tr>
+<td><input type="reset"></td>
+<td colspan="2"><input type="submit" value="Submit Form" /></td>
+</tr>
+</table>
+</form>
+</body>
+
+
+
+
+
+
+
+
+</html>

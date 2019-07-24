@@ -1,0 +1,21 @@
+<?php
+    if(isset($_POST['submit'])){
+   $name=$_POST['name'];
+   $email=$_POST['email'];
+   $phone=$_POST['phone'];
+   $msg=$_POST['msg'];
+   
+
+   $From='ganeshtedi123@gmail.com';
+   $subject='FORM SUBMISSION';
+   $message='Name: ".$name.""\n" "Phone: ".$phone.""\n". "wrote the following"."\n\n" .$msg;
+  $headers="to: ".$email;
+   
+  if(mail($to, $subject, $message, $headers)){
+     echo"<h1>sent successfully!!! thank you"." ".$name." </h1>";
+   }
+   else{
+      echo" soething went wrong!";
+}  
+
+ ?>

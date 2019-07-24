@@ -1,0 +1,76 @@
+body{ 
+   device: inline-block; 
+   margin: 0;
+   padding: 0;
+   background:url(page1bg.jpg);
+   background-size: cover;
+   background-position: center;
+   font-family: sans-serif;
+   width: device-width;
+   height: 800px;
+ }
+ .signin{ 
+   width:300px;
+   height:500px;
+   color:black;
+   top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px;
+    border-style:soild;
+}
+.signin p{
+        margin: 2px;
+        padding: 0px;
+        font-weight: bold;
+}
+.signin input[type="text"], input[type="text"], input[type="text"]
+{
+border-style: soild;
+border-bottom: 2px soild #fff;
+background: transparent;
+outline: none;
+height: 40px;
+color: black;
+font-size: 15px;
+padding: 5px;
+}
+
+
+.headerx{
+  position: variable;
+  width:100%;
+  height:auto;
+  top:0;
+  left:0;
+  color:white;
+  z-index:7;
+  font-family:verdana;
+  }
+ #img1{ left:200px;
+        height:100px;
+        width:110px;
+        top:25px;
+    }
+ #formal{
+  left:700px;
+  top:20px;
+  height:60px;
+  width:180px;
+ }
+.button{
+        background-color: skyblue;
+        color: black;
+        border: soild;
+        text-ailgn: center;
+        dispaly: inline-block;
+        cursor: pointer;
+        padding: 10px 82px;
+        font-size: 14px;
+    
+      }  
+
+
+
